@@ -65,12 +65,12 @@ header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
-	a{
+}
+.nav-bar>a{
 		color: var(--white);
 		text-decoration: none;
 	}
-	ul{
+.nav-bar>ul{
 		width: 90%;
 		display: flex;
 		font-weight: 300;
@@ -78,27 +78,25 @@ header{
 		font-size: clamp(1rem, 0.919rem + 0.323vw, 1.25rem);
 		gap: 10%;
 		min-width: 280px;
-		a{
+}
+.nav-bar>ul>a{
 			white-space: nowrap;
 		}
-	}
-
-}
 .logo-container{
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	a{
+}
+.logo-container>a{
 		height: 100%;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		img{
-			height: clamp(2rem, 1.032rem + 3.871vw, 5rem);
-			max-height: 50%;
-		}
-	}
+}
+.logo-container>a>img{
+	height: clamp(2rem, 1.032rem + 3.871vw, 5rem);
+	max-height: 50%;
 }
 
 /*MAIN*/
@@ -141,24 +139,22 @@ main{
 		margin-bottom: 2%;
 	}
 }
-.triangles-container{
-	.triangle {
+.triangles-container>.triangle {
 		transform: rotate(180deg);
 		-webkit-text-stroke: 1px var(--red);
 		color: transparent;
 		font-size: clamp(1rem, 0.032rem + 3.871vw, 4rem);
 		line-height: 90%;
-		&:nth-child(2){
-			color: var(--red);
-		}
-	 }
+	}
+.triangles-container>.trinagle:nth-child(2){
+	color: var(--red);
 }
 @media only screen and (max-width: 450px) {
 	.nav-bar{
 		flex-direction: column;
-		ul{
-			justify-content: center;
-		}
+	}
+	.nav-bar>ul{
+		justify-content: center;
 	}
 }
 
