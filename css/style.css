@@ -22,6 +22,7 @@ time,mark,audio,video {
 	--light-black: #282929;
 	--white: #fff;
 	--red: #EC6762;
+	--hover-red: #e04e49;
 	--font-fallback: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
 		"Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-sans;
 }
@@ -113,7 +114,6 @@ main {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-
 }
 
 .pretitle {
