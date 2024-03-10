@@ -95,6 +95,7 @@ h1 {
         font-size: .9rem;
         font-style: italic;
         font-weight: 400;
+        white-space: nowrap;
 }
 .news-post-img{
         width: 35%;
