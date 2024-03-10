@@ -2,22 +2,45 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CJS</title>
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
-    </script>
-    <link rel="shortcut icon" href="/img/cjs-logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css">
-    <script>
-        $(function () {
-            $("#header").load("header.html");
-        });
-    </script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CJS</title>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+		integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+		</script>
+	<link rel="shortcut icon" href="/img/cjs-logo.svg" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/activity.css">
+	<script>
+		$(function () {
+			$("#header").load("header.html");
+		});
+	</script>
 </head>
+
 <body>
-        <header id="header"></header>
-        <main>
-        </main>
+	<header id="header"></header>
+	<main>
+		<section class="title-container">
+			<div class="title-img-container">
+				<img class="marco-strike" src="/img/marco-strike.svg" alt="strike">
+				<!-- <img class="strike-img" src="/img/strike.jpg" alt="strike"> -->
+			</div>
+			<h1>
+				Actividad
+			</h1>
+		</section>
+		<section class="news-container">
+			<a class="news-post" href="/posts/presentacion-cjs">
+				<div class="news-post-info">
+					<h2 class="news-post-title">Se presenta CJS</h2>
+					<p class="news-post-intro">Tras un tiempo de desarrollo organizativo, de formación y debate, así como depsués de varios procesos de 
+						ruptura y unificación; cientos de jóvenes de distintos territorios tomamos la decisión de juntarnos para 
+						presentar la Coordinadora Juvenil Socialista, una organización del Movimiento Socialista.</p>
+					<div class="news-post-button">Leer más</div>
+				</div>
+				<div class="news-post-img" style="background-image: url('/img/strike.jpg');"></div>
+			</a>
+		</section>
+	</main>
 </body>
